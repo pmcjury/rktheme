@@ -1,0 +1,101 @@
+/*
+Theme Name: Robert Klara 2010
+Theme URI: http://www.robertklara.com
+Description: The theme for Robert Klara website.
+Version: 0.1
+Author: Patrick H. McJury
+Author URI: http://www.pmcjury.com/
+*/
+/* elements */
+/* headings */
+h2, .post h2{font-size:1.35em; color:#000; font-family:"AmerTypeMdBTMedium", "American Typewriter", "Lucida Console", "Courier New", Courier, monospace;}
+.post h2{ margin-bottom:2px;}
+.post h2 a{ }
+h2 a:hover{ text-decoration:underline;}
+h3, h4, h5, h6{color:#000; margin:0;}
+h3{font-size:1.25em;}
+h4{font-size:1.125em;}
+h5{font-size:1em;}
+h6{font-size:0.875em;}
+/* lists */
+
+/* misc */
+p{ font-size:0.8em; letter-spacing:0.05em; word-spacing:0.1em; color:#222; padding:0 1.25em;  text-align:left; margin:0em 0.375em; }
+div.page p {line-height:1.88em; text-indent:2em; background:url(images/blue_lined_spaper.gif) top left repeat-y;}
+p.paper{ }
+p.postmetadata{ font-size:0.7em; color:#999; padding:0.4em; }
+p.postmetadata a{ color:#e0e0e0;}
+pre{width:100%; white-space:pre-wrap; font-size:0.875em;}
+form{font-size:0.75em; color:#333;}
+form p{font-size:1.083em}
+label{font-size:1.083em;font-weight: bold;}
+img{ margin:0; padding:5px; background:transparent; border:0;}
+small{ font-size:0.7em; color:#888; margin:0px; padding:0.4em;}
+em{ font-style:italic; color:#000;}
+/* links */
+a{color:#400; text-decoration:none;}
+a:hover{ text-decoration:underline;}
+/* wp */
+.post{ border-bottom:1px solid #9F8181;}
+.clear{clear:both;}
+blockquote{margin:1.25em 0.625em 0.625em 0.375em; border-left:4px solid #DDD; padding:0 0.375em;font-size:1em;text-align:justify;}
+.commenttext blockquote{border-left:4px solid #B6B6B5;}
+.wp-caption{border:1px solid #ddd;text-align:center;background-color:#f3f3f3;padding-top:0.25em;}
+.wp-caption img{border:none;margin:0;padding:0;}
+.wp-caption p.wp-caption-text{font-size:0.688em;line-height:1.063em;color:#111;margin:0;padding:0 0.25em 0.625em;}
+.alignleft,img.alignleft{float:left;margin:0.625em 0.625em 0.625em 0;}
+img.alignleft_logo{ float:left; margin-right:10em;}
+.alignright,img.alignright{float:right;margin:o;}
+.aligncenter,div.aligncenter,img.aligncenter{text-align:center;display:block;margin:0.625em auto;}
+abbr acronym, span.abbr{cursor:help;border-bottom:1px dotted #000;}
+table{margin:0.5em 0 1em;}
+table td,table th{text-align:left;border-right:1px solid #fff;padding:0.4em 0.8em;}
+table th{background-color:#0f6795;color:#fff;text-transform:uppercase;font-weight:bold;border-bottom:1px solid #e8e1c8;}
+table td{background-color:#eee;}
+table th a{color:#d6f325;}
+table th a:hover{color:#fff;}
+table tr.even td{background-color:#ddd;}
+table tr:hover td{background-color:#FFF4BF;}
+table.nostyle td,table.nostyle th,table.nostyle tr.even td,table.nostyle tr:hover td{border:0;background:none;background-color:transparent;}
+.wp_syntax{ width:auto; }
+.wp_syntax table{ border:0 !important; }
+.wp_syntax table td{ border:0 !important; }
+img.wp-smiley{border:0px;vertical-align:middle;}
+#latest_news p{ font-size:0.75em; background:transparent;  color:#000; }
+/* main */
+body{margin:0px auto; text-align:center; background: #172100 url(images/wp_damask_185_tile.png) repeat-x;  width:100%; height:100%; position:relative; color:#333; font-family:"AmerTypeMdBTMedium","American Typewriter", "Lucida Console", "Courier New", Courier, monospace; font-size:16px;}
+#page{ background: transparent;  }
+#wrap{width:800px; height:100%; padding:0 15px; display:block; margin:0 auto; text-align:center;  background:url(images/paper.jpg) top repeat-y;}
+/* header and nav */
+#hd{ margin:0 auto; width:100%; height:160px; background:transparent url(images/nav2.jpg) top no-repeat;  }
+#hd a.title{ color:#333; display:block;}
+#hd a.title:hover{ text-decoration:none; }
+#hd h1{ font-size:2em; text-transform:uppercase; margin:0px; padding-top:5px; font-weight:normal; letter-spacing:0.2em; line-height: 1.563em; text-align:center; }
+#hd p{ text-align:center; margin:0 0 0 0; padding:13px 0 0 0; font-size:1.1em;  line-height:1.0em;}
+/* bodys for templates */
+ul#nav{ margin:0 0 0 0px; padding:25px 0 0 145px; list-style:none; text-align:center; }
+ul#nav li{text-align:center; padding:12px 0 0 0; margin-left:5px; display:block; float:left; width:132px; height:53px;}
+li.page_item{margin:0px; padding:0px; background:url(images/tab2.jpg) top left no-repeat;  }
+ul#nav li a{ color:#400; font-size:1.25em; text-align:center; letter-spacing:-0.01em; padding:0; margin:0; }
+ul#nav li a:hover{ color:#700; text-decoration:none; }
+/* sidebar */
+#sidebar ul{ list-style:none; margin:0 auto; padding:0;}
+#sidebar ul li.widget{ }
+#sidebar ul li.widget h2{ font-weight:normal; font-size:1em; text-align:center; margin:0.25em 0; padding:0;}
+#sidebar ul li.widget div{ text-align:center;}
+#sidebar ul li.widget div img{ border:0; padding:0; background:transparent;}
+#sidebar ul li.widget div p{ margin:0; padding:0; text-align:center;}
+/* misc*/
+#bd{ padding:0; margin:0; }
+#rt_col{ background:transparent; border:1px solid #cfccc2;}
+/* body for other template */
+/* footer */
+#ft{height:50px;}
+#ft p{text-align:center; color:#555;}
+/* cols */
+.left {float:left; text-align:left;}
+.right{float:left; text-align:right;}
+.wide{width:519px; padding:0 0 25px 86px; height:auto;}
+.widest{width:85%; padding:0 0 25px 86px; height:auto; text-align:center; clear:both;}
+.narrow{width:169px; height:auto; }
+.half{width:48%;}
