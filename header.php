@@ -22,11 +22,8 @@
                 <div id="hd">
                     <h1 class=""><a class="title" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
                     <p><?php bloginfo('description'); ?></p>
-                    <ul id="nav">
-                        <?php wp_list_pages("title_li=&sort_column=menu_order&depth=1&exclude=33"); // dev its 33 ?>
-                    </ul>
+                    <?php wp_nav_menu( array( 'theme_location' => 'header-menu-top', 'menu_id' => 'header-nav-top',  'menu_class' => 'nav', 'container' => ''   ) ); ?>
+                    <div class="clear"></div>
+                    <?php wp_nav_menu( array( 'theme_location' => 'header-menu-bottom', 'menu_id' => 'header-nav-bottom', 'menu_class' => 'nav', 'container' => ''   ) ); ?>
                     <div class="clear"></div>
                 </div><!-- #hd -->
-                <div>
-                    
-                </div>

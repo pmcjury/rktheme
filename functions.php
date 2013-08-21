@@ -4,6 +4,12 @@
  * @subpackage McJury Enterprises
  */
 
+function register_header_menu() {
+    register_nav_menu('header-menu-top',__( 'Header Menu Top' ));
+    register_nav_menu('header-menu-bottom',__( 'Header Menu Bottom' ));
+}
+add_action( 'init', 'register_header_menu' );
+
 if ( function_exists('register_sidebar') ) {
 	register_sidebar(array(
 		'before_widget' => '<li id="%1$s" class="widget %2$s">',

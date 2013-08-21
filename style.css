@@ -73,11 +73,11 @@ body{margin:0px auto; text-align:center; background: #172100 url(images/wp_damas
 #hd h1{ font-size:2em; text-transform:uppercase; margin:0px; padding-top:5px; font-weight:normal; letter-spacing:0.2em; line-height: 1.563em; text-align:center; }
 #hd p{ text-align:center; margin:0 0 0 0; padding:13px 0 0 0; font-size:1.1em;  line-height:1.0em;}
 /* bodys for templates */
-ul#nav{ margin:0 0 0 0px; padding:25px 0 0 145px; list-style:none; text-align:center; }
-ul#nav li{text-align:center; padding:12px 0 0 0; margin-left:5px; display:block; float:left; width:132px; height:53px;}
-li.page_item{margin:0px; padding:0px; background:url(images/tab2.jpg) top left no-repeat;  }
-ul#nav li a{ color:#400; font-size:1.25em; text-align:center; letter-spacing:-0.01em; padding:0; margin:0; }
-ul#nav li a:hover{ color:#700; text-decoration:none; }
+ul.nav{ margin:26px 0 0 0; padding:0; list-style:none; text-align:center; display:  }
+ul.nav li{text-align:center; padding:0; margin-left:5px; display:inline-block; width:132px; height:53px;}
+ul.nav li.menu-item{margin:0px; padding:0px; background:url(images/tab2.jpg) top left no-repeat;  }
+ul.nav li a{ color:#400; font-size:1.25em; text-align:center; letter-spacing:-0.01em; padding-top:11px; margin:0; display: block}
+ul.nav li a:hover{ color:#700; text-decoration:none; }
 /* sidebar */
 #sidebar ul{ list-style:none; margin:0 auto; padding:0;}
 #sidebar ul li.widget{ }
